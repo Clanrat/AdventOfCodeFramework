@@ -41,6 +41,9 @@ class Program
           //To run your solution, specify if you want your tests to run as well
           part1.Run(true);
           
+          //To get your result after the run
+          var result part1.Result;
+          
           /*
           The console will output:
           Starting Run
