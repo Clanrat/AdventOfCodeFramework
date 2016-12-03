@@ -28,13 +28,13 @@ class Program
       static void Main(string[] args)
       {
           //Register any tests along with the main input
-          var part1 = new SolutionRunner<Part1, int>()
+          var part1 = new SolutionRunner<Part1, string>()
               .AddTestCase("bar", "bar")
               .AddTestCase("foo", "foo")
               .SetMainInput(@"C:\Users\UserNameHere\Desktop\AoC2016Input\day1\1.txt");
 
           //You can also have test data in files, or input the raw puzzle data to the main run
-          var part1alternate = new SolutionRunner<Part1, int>()
+          var part1alternate = new SolutionRunner<Part1, string>()
               .AddTestCase(@"C:\Users\UserNameHere\Desktop\AoC2016Input\day1\test\1.txt","bar")
               .SetMainInput("foo");
               
