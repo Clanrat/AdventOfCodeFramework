@@ -81,7 +81,8 @@ namespace AoCFramework
 
             }
 
-            Console.WriteLine("Run finished");
+            Console.WriteLine("Run finished press enter to continue");
+            Console.ReadLine();
         }
 
         
