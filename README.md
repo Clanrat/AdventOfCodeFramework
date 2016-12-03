@@ -42,7 +42,7 @@ class Program
           part1.Run(true);
           
           //To get your result after the run
-          var result part1.Result;
+          var result = part1.Result;
           
           /*
           The console will output:
